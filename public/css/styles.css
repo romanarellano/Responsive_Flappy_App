@@ -1,0 +1,53 @@
+@media only screen and (max-width:40em){
+  
+
+  body{
+
+    background-color: #230C82;
+
+  }
+
+  .big_image{
+    display:block;
+    max-width:300px;
+    background-image: url('/images/scenery.png');
+    height:30px;
+  }*/
+  .logo{
+
+  
+    min-height:20em;
+  }
+}
+
+@media only screen and (min-width:40.063em) and (max-width:60em){
+  
+  body{
+
+    background-color: red;
+  }
+}
+
+
+
+@media only screen and (min-width:60.063em){
+  
+  body{
+
+    background:#F1F0F5;
+  }
+
+  .logo{
+    
+    color:#4FD6E8;
+    background-color: #08093B;
+    font-size: 50px;
+    font-family: 'Lato',sans-serif;
+  }
+
+
+}
+
+
+
+
