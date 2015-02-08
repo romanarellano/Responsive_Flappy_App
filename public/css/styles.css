@@ -15,7 +15,8 @@
   }*/
   .logo{
 
-  
+ 
+position: relative;
     min-height:20em;
   }
 }
@@ -35,14 +36,80 @@
   body{
 
     background:#F1F0F5;
+
   }
+  .top_part{
+    position:relative;
+    background:#08093B;
+    background-image: url('/images/border.png');
+    background-repeat:repeat-x;
+    padding:45px 5px;
+}
+
+
 
   .logo{
-    
+   
     color:#4FD6E8;
-    background-color: #08093B;
-    font-size: 50px;
-    font-family: 'Lato',sans-serif;
+    font-weight: 30px;
+    font-size: 45px;
+    font-family: 'Lato';
+    display:inline;
+}
+  
+  .logo span{
+    
+    /*background:green;*/
+    margin:50px 0.6em;
+    top:5px;
+  
+  }
+  
+  .logo span img{
+    width:80px;
+    margin:-0.1em -4.5em;
+
+  }
+  
+  
+  
+  .menus li {
+    margin: 0 0.5em;
+    width:12em;
+    text-decoration: none;
+   /* background:yellow;*/
+    display:inline;
+
+  }
+
+  ul.menus{
+    
+    position:relative;
+    display:inline;
+    width:5em;
+    /*background:red;*/
+    margin: 0 37em;
+    padding:0 -6em;
+   /* top:-28px;*/
+
+  }
+  .menus li a{
+ 
+    text-decoration: none;
+    padding:3px;
+    border-bottom:#4FD6E8 2px solid;
+  }
+  
+      .menus li a:hover{
+
+        color:#F4F7F0;/*white*/
+       /* text-decoration:underline;*/
+      }
+
+  
+  .big_image{
+position:relative;
+    margin: 79px 22px;
   }
 
 
