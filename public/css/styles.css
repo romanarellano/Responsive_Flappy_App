@@ -74,12 +74,16 @@ position: relative;
   
   
   .menus li {
-    margin: 0 0.5em;
+    margin: 0 -0.2em;
     width:12em;
     text-decoration: none;
    /* background:yellow;*/
     display:inline;
 
+  }
+  .menus li:hover{
+
+    bottom-border:white;
   }
 
   ul.menus{
@@ -93,22 +97,26 @@ position: relative;
    /* top:-28px;*/
 
   }
+
   .menus li a{
  
     text-decoration: none;
-    padding:3px;
-    border-bottom:#4FD6E8 2px solid;
+    padding:3px 6px;
+    color:#4FD6E8;
+    border-bottom:#4FD6E8 4px solid;
   }
   
-      .menus li a:hover{
+  .menus li a:hover{
 
-        color:#F4F7F0;/*white*/
-       /* text-decoration:underline;*/
-      }
+    color:#F4F7F0;/*white*/
+   /* text-decoration:underline;*/
+   border-bottom:white 4px solid;
+  }
+
 
   
   .big_image{
-position:relative;
+    position:relative;
     margin: 79px 22px;
   }
 
