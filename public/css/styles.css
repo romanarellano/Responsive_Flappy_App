@@ -3,7 +3,8 @@
 
   body{
 
-    background-color: #230C82;
+    /*background-color:  #230C82; */
+    background:white;
 
   }
 
@@ -12,7 +13,7 @@
     max-width:300px;
     background-image: url('/images/scenery.png');
     height:30px;
-  }*/
+  }
   .logo{
 
  
@@ -55,14 +56,15 @@ position: relative;
     font-size: 45px;
     font-family: 'Lato';
     display:inline;
+
+
 }
   
   .logo span{
     
     /*background:green;*/
-    margin:50px 0.6em;
-    top:5px;
-  
+    margin:0 0.6em;
+    
   }
   
   .logo span img{
@@ -101,7 +103,7 @@ position: relative;
   .menus li a{
  
     text-decoration: none;
-    padding:3px 6px;
+    padding:3px 9px;
     color:#4FD6E8;
     border-bottom:#4FD6E8 4px solid;
   }
@@ -113,14 +115,29 @@ position: relative;
    border-bottom:white 4px solid;
   }
 
-
-  
+  .middle_part{
+    position:relative;
+    background-color: white;
+    display:block;
+  }
   .big_image{
     position:relative;
-    margin: 79px 22px;
+    margin: 99px 22px;
+    padding:2.2em 1.2em;
+    
+
+  }
+  .big_image img{
+   
+     border:black 4px solid;
+  }
+  .middle_right_box {
+
+   right:3px;
+    margin:2em 5em;
   }
 
-
+  
 }
 
 
