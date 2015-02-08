@@ -52,7 +52,7 @@ position: relative;
   .logo{
    
     color:#4FD6E8;
-    font-weight: 30px;
+    font-weight: 900;
     font-size: 45px;
     font-family: 'Lato';
     display:inline;
@@ -118,33 +118,63 @@ position: relative;
   .middle_part{
     position:relative;
     background-color: white;
-    display:block;
+    
   }
   .big_image{
     position:relative;
     margin: 99px 22px;
     padding:2.2em 1.2em;
     
-
   }
   .big_image img{
    
      border:black 4px solid;
+     float:left;
+     width:60%;
+      
+  }
+  .middle_right_box{
+
+    width:30%;
+    float:left;
+margin:2em 2em;
+
+
   }
   .middle_right_box ul {
-    position:absolute;
-    right:0;
-    margin:-26em 3em;
-    background-color:#08093B;
-    border: 3px #F1F0F5 solid;
+    position:relative;
+    
+    margin:-10.34em 1em;
+
+    background-color:#4FD6E8;
+    border: 3.4px lightgray solid;//#F1F0F5
+    display:inline;
+    
   }
 
 .middle_right_box ul li{
+  padding:0.76em 2em;
+  text-align:center;
+  margin:0 0;
+  color:white;
+  border:1px gray solid;
+
+}
+.middle_right_box ul li:first-child{
   padding:1.11em 4em;
   text-align:center;
-  margin:0.2em 0.2em;
-  color:#4FD6E8;
+  margin:0 0;
+  background-color:#08093B;
 
+}
+p{
+
+  position:relative;
+  margin:2em;
+  padding:2em 0.7em;
+  clear:both;
+  font-weight:bold;
+  font-family: 'Lato';
 }
 
   
