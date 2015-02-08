@@ -112,7 +112,7 @@ position: relative;
 
     color:#F4F7F0;/*white*/
    /* text-decoration:underline;*/
-   border-bottom:white 4px solid;
+    border-bottom:white 4px solid;
   }
 
   .middle_part{
@@ -131,11 +131,21 @@ position: relative;
    
      border:black 4px solid;
   }
-  .middle_right_box {
-
-   right:3px;
-    margin:2em 5em;
+  .middle_right_box ul {
+    position:absolute;
+    right:0;
+    margin:-26em 3em;
+    background-color:#08093B;
+    border: 3px #F1F0F5 solid;
   }
+
+.middle_right_box ul li{
+  padding:1.11em 4em;
+  text-align:center;
+  margin:0.2em 0.2em;
+  color:#4FD6E8;
+
+}
 
   
 }
