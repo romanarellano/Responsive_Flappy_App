@@ -176,7 +176,28 @@ p{
   font-weight:bold;
   font-family: 'Lato';
 }
+.bottom_part{
 
+  background:#08093B;
+  background-image: url('/images/border.png');
+  background-repeat:no-repeat;
+  color:white;
+  padding:2em 2em;
+  margin:2em 2em;
+
+}
+.first_bottom_box{
+ 
+float:left;
+margin: 0 3em;
+}
+.second_bottom_box{
+float:left;
+margin: 0 3em;
+}
+.third_bottom_box{
+
+}
   
 }
 
