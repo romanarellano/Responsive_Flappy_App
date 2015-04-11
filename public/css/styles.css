@@ -26,7 +26,7 @@ a:hover {
 header {
   height: 5em;
   color: #00CCCC;
-  background: #2B2D33 url('../images/border.png') repeat-x ;
+  background: #2B2D33 url('/images/border.png') repeat-x ;
 }
 
 .clearfix:after {
